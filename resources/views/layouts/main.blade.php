@@ -34,9 +34,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/sekolah') }}">Daftar Sekolah</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/guru') }}">Data Guru</a>
-                    </li> -->
+                   
                 </ul>
             </div>
         </div>
