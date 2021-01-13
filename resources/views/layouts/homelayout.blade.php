@@ -12,7 +12,24 @@
 
     <style>
         header {
-            padding: 15px 14px;
+            padding: 180px 14px;
+           background-image: url(asset/img/bg.jpg);
+        }
+        .card-jenjang {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            width: 150px;
+            margin-bottom: 30px;
+            box-shadow: 1px 2px 5px;
+            display: inline-block;
+            margin-right: 20px;
+            background-color: #4688c2;
+        }
+
+        .title-jenjang {
+            margin-bottom: 0px;
+            text-align: center;
         }
 
     </style>
@@ -35,10 +52,10 @@
                         <a class="nav-link" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/about')}}">About</a>
+                        <a class="nav-link" href="{{ url('/sekolah') }}">Daftar Sekolah</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/sekolah') }}">Daftar Sekolah</a>
+                        <a class="nav-link" href="{{ url('/about')}}">About</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="{{ url('/guru') }}">Data Guru</a>
@@ -48,6 +65,8 @@
         </div>
     </nav>
     @yield('header')
+
+    @yield('card')
 
     @yield('container')
 

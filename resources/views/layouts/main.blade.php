@@ -29,10 +29,10 @@
                         <a class="nav-link" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/about')}}">About</a>
+                        <a class="nav-link" href="{{ url('/sekolah') }}">Daftar Sekolah</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/sekolah') }}">Daftar Sekolah</a>
+                        <a class="nav-link" href="{{ url('/about')}}">About</a>
                     </li>
                    
                 </ul>

@@ -4,11 +4,10 @@
 
 @section('header')
 <!-- Header -->
-<header class="bg-info py-5 mb-5">
+<header class="py-6 mb-5">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
-
                 <h1 class="display-4 text-white mt-5 mb-2">SEKOLAH<b>KU</b></h1>
                 <p class="lead mb-5 text-white-50">SEKOLAHKU ini dibuat untuk memudahkan anda mencari informasi sekolah
                     yang anda cari!</p>
@@ -18,39 +17,25 @@
 </header>
 @endsection
 
+
 @section('container')
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 mb-5">
-            <h2>What We Do</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi
-                soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat
-                explicabo, maiores!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni
-                in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate.
-                Voluptatum.</p>
-            <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
-        </div>
-        <!-- <div class="col-md-4 mb-5">
-            <h2>Contact Us</h2>
-            <hr>
-            <address>
-                <strong>Start Bootstrap</strong>
-                <br>3481 Melrose Place
-                <br>Beverly Hills, CA 90210
-                <br>
-            </address>
-            <address>
-                <abbr title="Phone">P:</abbr>
-                (123) 456-7890
-                <br>
-                <abbr title="Email">E:</abbr>
-                <a href="mailto:#">name@example.com</a>
-            </address>
-        </div> -->
+    <div class="card-jenjang">
+        <p class="title-jenjang">TK</p>
     </div>
+    <div class="card-jenjang">
+        <p class="title-jenjang">SD</p>
+    </div>
+    <div class="card-jenjang">
+        <p class="title-jenjang">SMP/MI</p>
+    </div>
+    <div class="card-jenjang">
+        <p class="title-jenjang">SMA/SMK</p>
+    </div>
+
+
+
     <!-- endrow -->
     @foreach($sekolah as $sklh)
     <div class="row">
@@ -100,7 +85,7 @@
 @section('footer')
 <footer class="py-5 bg-dark">
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+        <p class="m-0 text-center text-white">Copyright © 2021 Sekolahku. All Rights Reserved.</p>
     </div>
     <!-- /.container -->
 </footer>
